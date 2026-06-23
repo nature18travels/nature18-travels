@@ -15,7 +15,7 @@ header{
     background:url('background.png') center top no-repeat;
     background-size:contain;
     background-color:#000;
-    min-height:850px;
+    min-height:650px;
     display:flex;
     flex-direction:column;
     justify-content:flex-end;
