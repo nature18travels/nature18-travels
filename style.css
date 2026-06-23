@@ -257,7 +257,7 @@ h2 {
     width:100%;
     display:flex;
     justify-content:center;
-    margin-top:50px;
+    margin-top:20px;
     position:relative;
 }
 
@@ -590,12 +590,7 @@ header{
 @media (max-width:768px){
 
 header{
-    background-size:120%;
-    background-position:center top;
-    min-height:500px;
-    padding-bottom:20px;
-}
-
+    min-height:650px;
 }
 
 }
