@@ -332,28 +332,26 @@ h2 {
 
 @media (max-width:768px){
 
-.bottom-buttons{
-    display:flex;
-    flex-wrap:wrap;
-    justify-content:center;
-    gap:12px;
-    max-width:1200px;
-}
-.bottom-btn{
-    width:85%;
-    max-width:320px;
-    padding:10px 16px;
-    font-size:14px;
-    margin:0 auto;
+@media (max-width:768px){
 
-    background: rgba(255,255,255,0.15);
-    backdrop-filter: blur(8px);
-    color:#fff !important;
-    text-decoration:none;
-    border-radius:30px;
-    display:block;
+.bottom-buttons{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:12px;
+    width:95%;
+    margin:auto;
+}
+
+.bottom-btn{
+    width:100%;
+    max-width:none;
+    margin:0;
+    padding:10px 12px;
+    font-size:14px;
     text-align:center;
 }
+
+}}
 
 @media (max-width:768px){
 header{
