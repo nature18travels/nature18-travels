@@ -329,6 +329,7 @@ h2 {
   justify-content: space-between;
 }
 
+
 @media (max-width:768px){
 
 .bottom-buttons{
@@ -338,7 +339,6 @@ h2 {
     gap:12px;
     max-width:1200px;
 }
-
 .bottom-btn{
     width:85%;
     max-width:320px;
@@ -355,16 +355,11 @@ h2 {
     text-align:center;
 }
 
-}
-
-}
-
-@media (max-width:768px){
 header{
     height:auto;
-    min-height:600px;
-    padding-bottom:30px;
+    min-height:100vh;
 }
+
 }
 
 .bottom-btn {
@@ -595,7 +590,7 @@ header{
 @media (max-width:768px){
 
 header{
-    min-height:650px;
+    min-height:550px;
 }
 
 }
