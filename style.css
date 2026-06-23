@@ -335,17 +335,17 @@ h2 {
 .bottom-buttons{
     display:flex;
     flex-wrap:wrap;
+    gap:8px;
     justify-content:center;
-    gap:12px;
-    max-width:1200px;
 }
 
 .bottom-btn{
-    width:90%;
-    text-align:center;
-    margin:auto;
+    width:45%;
+    font-size:13px;
+    padding:10px;
 }
 
+}
 header{
     height:auto;
     min-height:100vh;
