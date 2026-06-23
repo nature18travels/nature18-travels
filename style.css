@@ -581,9 +581,14 @@ header{
 
 header{
     min-height:auto;
-    height:auto
-    justify-content:flex-start
+    padding-top:10px;
     padding-bottom:20px;
+}
+
+.bottom-buttons{
+    margin-top:20px;
+}
+
 }
 .header-nav{
     margin-top:20px;
