@@ -329,29 +329,30 @@ h2 {
   justify-content: space-between;
 }
 
-
-@media (max-width:768px){
-
 @media (max-width:768px){
 
 .bottom-buttons{
     display:grid;
     grid-template-columns:1fr 1fr;
-    gap:12px;
-    width:95%;
-    margin:auto;
+    gap:10px;
+    width:100%;
+    padding:0 10px;
+    box-sizing:border-box;
 }
 
 .bottom-btn{
     width:100%;
     max-width:none;
     margin:0;
-    padding:10px 12px;
-    font-size:14px;
+    padding:10px 8px;
+    font-size:13px;
+    border-radius:25px;
     text-align:center;
+    box-sizing:border-box;
+    white-space:normal;
 }
 
-}}
+}
 
 @media (max-width:768px){
 header{
