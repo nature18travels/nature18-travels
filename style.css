@@ -10,20 +10,17 @@ body {
 }
 
 /* ===== HEADER ===== */
-header {
-  position: relative;
-  background: url('background.png') center center no-repeat;
-  background-size: contain;
-  background-color: #000;
-
-  height: 100vh;
-  color: #fff;
-  text-align: center;
-
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+header{
+    position:relative;
+    background:url('background.png') center top no-repeat;
+    background-size:contain;
+    background-color:#000;
+    min-height:850px;
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-end;
+    align-items:center;
+    padding-bottom:40px;
 }
 
 header::before {
@@ -54,8 +51,7 @@ header * {
 
 
 .highlight { background: #d32f2f; }
-
-there is 
+ 
 /* ===== NAVIGATION ===== */
 .nav-buttons {
   display: flex;
@@ -257,12 +253,12 @@ h2 {
 
 
 
-.header-nav {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 12px;
-  margin-top: 25px;
+.header-nav{
+    width:100%;
+    display:flex;
+    justify-content:center;
+    margin-top:20px;
+    position:relative;
 }
 
 .header-nav .nav-btn {
@@ -337,13 +333,11 @@ h2 {
 @media (max-width:768px){
 
 .bottom-buttons{
-    position: static;
-    transform:none;
     display:flex;
-    flex-direction:column;
-    width:100%;
-    gap:10px;
-    padding:20px;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:12px;
+    max-width:1200px;
 }
 
 .bottom-btn{
@@ -545,21 +539,17 @@ footer p {
   }
 
 }
-@media (max-width:768px){
+header{
+    position:relative;
+    background:url('background.png') center top no-repeat;
+    background-size:100% auto;
+    background-color:#000;
 
-  .header-nav{
-      display:flex;
-      flex-direction:column;
-      align-items:center;
-      gap:10px;
-      width:100%;
-  }
+    min-height:600px;   /* important */
 
-  .header-nav .nav-btn{
-      width:90%;
-      max-width:320px;
-      text-align:center;
-      margin:0;
-  }
-
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-end;
+    align-items:center;
+    padding-bottom:30px;
 }
