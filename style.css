@@ -346,11 +346,6 @@ h2 {
     margin:auto;
 }
 
-header{
-    height:auto;
-    min-height:100vh;
-}
-
 }
 
 .bottom-btn {
@@ -563,20 +558,7 @@ footer p {
   }
 
 }
-header{
-    position:relative;
-    background:url('background.png') center top no-repeat;
-    background-size:100% auto;
-    background-color:#000;
 
-    min-height:600px;   /* important */
-
-    display:flex;
-    flex-direction:column;
-    justify-content:flex-end;
-    align-items:center;
-    padding-bottom:30px;
-}
 @media (max-width:768px){
 
 header{
@@ -588,12 +570,26 @@ header{
 .bottom-buttons{
     margin-top:20px;
 }
+@media (max-width:768px){
 
+header{
+    min-height:320px;
+    background-size:100% auto;
+    background-position:top center;
+    padding-bottom:15px;
 }
-.header-nav{
-    margin-top:20px;
+
 .bottom-buttons{
-    margin-top:20px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:10px;
 }
 
+.bottom-btn{
+    width:90%;
+    text-align:center;
+}
+
+}
 }
