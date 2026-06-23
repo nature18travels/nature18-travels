@@ -393,15 +393,19 @@ header{
 }
 
 .social-btn {
-  width: 280px;
+  width: 100%;
+  max-width: 500px;
+  box-sizing: border-box;
   text-align: left;
   padding: 14px 20px;
-  border-radius: 30px;
-  text-decoration: none;
- color: #000 !important;   /* Black text */
-  font-weight: 600;
+}
+.social_buttons{
+    width:100%;
 }
 
+#social .card{
+    overflow:hidden;
+}
 .social-btn i {
   margin-right: 10px;
   width: 20px;
@@ -469,7 +473,7 @@ footer p {
 
 
 .service-list {
-  padding-left: 100px; /* acts like one tab space */
+  padding-left: 25px; /* acts like one tab space */
 }
 /* ===== FLOATING BOOK NOW BUTTON ===== */
 
@@ -536,6 +540,21 @@ footer p {
 
     padding: 12px 18px;
     font-size: 14px;
+  }
+
+}
+@media (max-width:768px){
+
+  .day-img{
+      width:100%;
+      max-width:100%;
+  }
+
+  .day-img img{
+      width:100%;
+      max-width:100%;
+      height:auto;
+      display:block;
   }
 
 }
