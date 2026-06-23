@@ -340,11 +340,19 @@ h2 {
     max-width:1200px;
 }
 .bottom-btn{
-    width:auto;
-    max-width:300px;
+    width:85%;
+    max-width:320px;
     padding:10px 16px;
     font-size:14px;
-    margin:0;
+    margin:0 auto;
+
+    background: rgba(255,255,255,0.15);
+    backdrop-filter: blur(8px);
+    color:#fff !important;
+    text-decoration:none;
+    border-radius:30px;
+    display:block;
+    text-align:center;
 }
 
 header{
