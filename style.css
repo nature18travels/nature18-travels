@@ -334,17 +334,29 @@ h2 {
 }
 
 
-.bottom-buttons {
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
+@media (max-width:768px){
 
-  display: flex;
-  flex-direction: row; /* same line */
-  gap: 12px;
+.bottom-buttons{
+    position: static;
+    transform:none;
+    display:flex;
+    flex-direction:column;
+    width:100%;
+    gap:10px;
+    padding:20px;
+}
 
-  flex-wrap: nowrap; /* prevents next line */
+.bottom-btn{
+    width:90%;
+    text-align:center;
+    margin:auto;
+}
+
+header{
+    height:auto;
+    min-height:100vh;
+}
+
 }
 
 .bottom-btn {
@@ -530,6 +542,24 @@ footer p {
 
     padding: 12px 18px;
     font-size: 14px;
+  }
+
+}
+@media (max-width:768px){
+
+  .header-nav{
+      display:flex;
+      flex-direction:column;
+      align-items:center;
+      gap:10px;
+      width:100%;
+  }
+
+  .header-nav .nav-btn{
+      width:90%;
+      max-width:320px;
+      text-align:center;
+      margin:0;
   }
 
 }
