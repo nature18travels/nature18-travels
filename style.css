@@ -594,3 +594,27 @@ header{
 }
 
 }
+
+@media (max-width:768px){
+
+#Car_Rentals .food-images{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:15px;
+}
+
+#Car_Rentals .food-images img{
+    width:90%;
+    max-width:320px;
+    height:auto;
+    display:block;
+    margin:0 auto;
+}
+
+#Car_Rentals .service-list{
+    padding-left:20px;
+    padding-right:10px;
+}
+
+}
